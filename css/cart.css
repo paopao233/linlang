@@ -1,0 +1,397 @@
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* 头部的头部 */
+
+.hd-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 8px;
+    color: #6C6C6C;
+    font-size: 12px;
+}
+
+.header-hd {
+    width: 100%;
+    height: 36px;
+    background-color: #F5F5F5;
+    margin-top: -7px;
+}
+
+.info-select {
+    margin-right: 40px;
+}
+
+.ll-index {
+    margin-left: 250px;
+    margin-right: 40px;
+}
+
+.my-cart {
+    color: red;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sort {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sller-center {
+    margin-left: 30px;
+    margin-right: 40px;
+    border-left: 2px solid #e5e5e5;
+    padding-left: 10px;
+}
+
+.websites {
+    margin-left: 40px;
+}
+
+
+/* 头部 */
+
+.logo {
+    width: 160px;
+    height: 68px;
+}
+
+.header {
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header span {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.search {
+    width: 510px;
+    height: 30px;
+    border: 4px solid #f40;
+    margin-left: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_serach {
+    width: 340px;
+    height: 25px;
+    outline: none;
+}
+
+.items-select {
+    border: 0 none;
+    outline: none;
+    height: 30px;
+    color: #6b6b6b;
+    padding: 0 5px;
+}
+
+.btn-search {
+    margin-top: -1px;
+    background-color: #f40;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0 none;
+    outline: none;
+    font-size: large;
+}
+
+.logo-bd {
+    margin-top: -45px;
+    display: block;
+    margin-left: 22px;
+    width: 142px;
+    height: 0;
+}
+
+.logo-bd img {
+    width: 120px;
+    height: 48px;
+}
+
+
+/* content */
+
+.content {
+    height: 1000px;
+}
+
+.items {
+    background-color: #fcfcfc;
+    border: 1px solid rgb(192, 185, 185);
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-img {
+    margin-left: 20px;
+}
+
+.cart-title a {
+    width: 160px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 13px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-basic-info {
+    margin-left: 80px;
+    color: #9c9c9c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+
+.item-basic-info:hover {
+    border: 1px dotted #a19923;
+}
+
+.item-price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.first-span {
+    color: #9c9c9c;
+    text-decoration: line-through;
+}
+
+.item-amount {
+    height: 25px;
+    position: relative;
+    z-index: 1;
+    margin-left: 80px;
+}
+
+.amout-input {
+    width: 39px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    background-position: -75px -375px;
+    position: absolute;
+    z-index: 2;
+    left: 18px;
+    top: 0;
+}
+
+.amount-minus {
+    text-decoration: none;
+    display: block;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    position: absolute;
+    top: 0;
+}
+
+.amount-plus {
+    display: block;
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    position: absolute;
+    top: 0;
+    margin-left: 59px;
+    text-decoration: none;
+}
+
+.totally-price {
+    margin-left: 160px;
+    color: red;
+}
+
+.operation {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.operation a {
+    text-decoration: none;
+    color: black;
+}
+
+.settlement-top {
+    width: 100%;
+    height: 60px;
+}
+
+.items-settlement {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    bottom: 0;
+    z-index: -1;
+    padding: 15px 0 15px 15px;
+    width: 1190px;
+    position: fixed;
+    height: 35px;
+    max-height: 50px;
+    background-color: #e5e5e5;
+}
+
+.operations a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.right-operations {
+    align-items: center;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.amount-sum {
+    margin-right: 20px;
+}
+
+.btn-area a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-area {
+    margin-left: 40px;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    background: #f40;
+    text-align: center;
+    font-family: 'Lantinghei SC', 'Microsoft Yahei';
+    font-size: 20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* th */
+
+.cart-table-th {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #3c3c3c;
+    font-size: 12px;
+}
+
+.select-all {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.item-info {
+    margin-left: 120px;
+}
+
+.item-fisrt-price {
+    margin-left: 460px;
+}
+
+.th-item-amount {
+    margin-left: 130px;
+}
+
+.th-item-price-all {
+    margin-left: 120px;
+}
+
+.th-item-operation {
+    margin-left: 120px;
+}
+/* 底部 */
+
+.footer {
+    margin-top: 50px;
+    height: 292px;
+    background-color: #fff;
+}
+
+.footer-container {
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.first-bd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.first-bd a {
+    margin-bottom: 15px;
+    padding: 0 10px;
+    border-left: 2px solid #ddd;
+    text-decoration: none;
+    color: #6C6C6C !important;
+}
+
+.first-bd a:first-child {
+    border-left: none;
+}
+
+.split {
+    margin: 2px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-logo {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.footer-logo img {
+    width: 238px;
+    height: 67px;
+}

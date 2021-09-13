@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cart.css">
+    <title>购物车 - 琳琅</title>
+</head>
+
+<body>
+    <div class="header-hd">
+        <div class="hd-container">
+            <div class="info-select">
+                <span>我是乐乐呀</span>
+            </div>
+            <div class="phone-tb">
+                <span>手机管琳琅</span>
+            </div>
+            <div class="ll-index">
+                <span>琳琅首页</span>
+            </div>
+            <div class="my-ll">
+                <span>我的琳琅</span>
+            </div>
+            <div class="my-cart">
+                <span>我的购物车</span>
+            </div>
+            <div class="fav">
+                <span>收藏夹</span>
+            </div>
+            <div class="sort">
+                <span>商品分类</span>
+            </div>
+            <div class="free-kd">
+                <span>免费开店</span>
+            </div>
+            <div class="sller-center">
+                <span>牛马卖家中心</span>
+            </div>
+            <div class="contact">
+                <span>联系客服</span>
+            </div>
+            <div class="websites">
+                <span>网址导航</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+
+            <div class="logo-bd">
+                <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <!-- <span>购物车</span> -->
+            <div class="search">
+                <form class="form" action="#">
+                    <select name="search" id="search" class="items-select">
+                        <option  value="item">宝贝</option>
+                        <option value="tmall">天猫</option>
+                        <option value="dianpu">店铺</option>
+                    </select>
+                    <input type="text" class="input_serach" placeholder="请输入搜索内容">
+                    <button type="submit" class="btn-search">搜索</button>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="content">
+            <!-- th start -->
+            <div class="cart-table-th">
+                <div class="select-all">
+                    <input type="checkbox" id="check-id">
+                    <label for="check-id">全选</label>
+                </div>
+                <div class="item-info">
+                    <span>商品信息</span>
+                </div>
+                <div class="item-fisrt-price">
+                    <span>单价</span>
+                </div>
+                <div class="th-item-amount">
+                    <span>数量</span>
+                </div>
+                <div class="th-item-price-all">
+                    <span>金额</span>
+                </div>
+                <div class="th-item-operation">
+                    <span>操作</span>
+                </div>
+            </div>
+            <!-- th end -->
+            <!-- items start -->
+            <div class="items">
+                <div class="cart-checkbox">
+                    <input type="checkbox" id="check-id">
+                </div>
+                <div class="cart-img">
+                    <img src="https://img.alicdn.com/bao/uploaded/i4/2650036504/O1CN010QQrk81xusgtRytAa_!!2650036504.jpg_80x80.jpg" alt="">
+                </div>
+                <div class="cart-title">
+                    <a href="./items.html">广东移动10G7天有效流量包 全国通用流量叠加包 加油包 无限叠加</a>
+                </div>
+                <div class="item-basic-info">
+                    颜色分类：10G7天（7天一次）
+                </div>
+                <div class="item-price">
+                    <span class="first-span">￥3.98</span>
+                    <span class="first-price" value="2.85">￥2.85</span>
+                </div>
+                <div class="item-amount">
+                    <a href="#" class="amount-minus">-</a>
+                    <input name="amout" class="amout-input" type="text" value="1" data-max="99999" data-now="1" autocomplete="off">
+                    <a href="#" class="amount-plus">+</a>
+                </div>
+                <div class="totally-price">
+                    <span class="one-price" value="2.85">￥2.85</span>
+                </div>
+                <div class="operation">
+                    <a href="#">移入收藏夹</a>
+                    <a href="#">删除</a>
+                </div>
+            </div>
+            <!-- items end -->
+            <!-- items start -->
+            <div class="items">
+                <div class="cart-checkbox">
+                    <input type="checkbox" id="check-id">
+                </div>
+                <div class="cart-img">
+                    <img src="https://img.alicdn.com/bao/uploaded/i2/681185851/O1CN01ZOAszv1t5o4urcYDt_!!0-item_pic.jpg_80x80.jpg" alt="">
+                </div>
+                <div class="cart-title">
+                    <a href="./items.html">【划算价】日清合味道杯面12杯泡面桶装多口味混合装方便面整箱免煮速食食品</a>
+                </div>
+                <div class="item-basic-info">
+                    口味：【6桶尝鲜】6口味各1桶
+                </div>
+                <div class="item-price">
+                    <span class="first-span">￥70.00</span>
+                    <span class="first-price" value="28.80">￥28.80</span>
+                </div>
+                <div class="item-amount">
+                    <a href="#" class="amount-minus">-</a>
+                    <input name="amout" class="amout-input" type="text" value="1" data-max="99999" data-now="1" autocomplete="off">
+                    <a href="#" class="amount-plus">+</a>
+                </div>
+                <div class="totally-price">
+                    <span class="one-price" value="28.80">￥28.80</span>
+                </div>
+                <div class="operation">
+                    <a href="#">移入收藏夹</a>
+                    <a href="#">删除</a>
+                </div>
+            </div>
+            <!-- items end -->
+
+            <div class="settlement-top"></div>
+            <!-- settlement start -->
+            <div class="items-settlement">
+                <input type="checkbox" id="check-id">
+                <label for="check-id">全选</label>
+                <div class="operations">
+                    <a href="#">删除</a>
+                    <a href="#">清除失效宝贝</a>
+                    <a href="#">移入收藏夹</a>
+                </div>
+                <div class="right-operations">
+                    <div class="amount-sum">
+                        <span>已选商品</span>
+                        <em>0</em>
+                        <span>件</span>
+                    </div>
+                    <div class="amount-price">
+                        <span>合计（不含运费）： 0.00</span>
+                    </div>
+                    <div class="btn-area">
+                        <a href="#">
+                            <span>结&nbsp算</span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- settlement end -->
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="first-bd">
+                    <a href="#">阿里巴巴集团</a>
+                    <a href="#">淘宝网</a>
+                    <a href="#">天猫</a>
+                    <a href="#">聚划算</a>
+                    <a href="#">全球速卖通</a>
+                    <a href="#">阿里巴巴国际交易市场</a>
+                    <a href="#">1688</a>
+                    <a href="#">阿里妈妈</a>
+                    <a href="#">飞猪</a>
+                    <a href="#">淘小铺</a>
+                    <a href="#">阿里云计算</a>
+                    <a href="#">AliOS</a>
+                    <a href="#">阿里通信</a>
+                    <a href="#">一淘</a>
+                    <a href="#">万网</a>
+                    <a href="#">高德</a>
+                    <a href="#">UC</a>
+                    <a href="#">友盟</a>
+                    <a href="#">阿里安全</a>
+                    <a href="#">大麦网</a>
+                    <a href="#">钉钉</a>
+                    <a href="#">支付宝</a>
+                    <a href="#">优酷</a>
+                    <a href="#">土豆</a>
+                    <a href="#">阿里健康</a>
+                </div>
+                <div class="split">
+                </div>
+                <div class="about first-bd">
+                    <a href="#">关于淘宝</a>
+                    <a href="#">营销中心</a>
+                    <a href="#">廉正举报</a>
+                    <a href="#">联系客服</a>
+                    <a href="#">开放平台</a>
+                    <a href="#">诚征英才</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">隐私权政策</a>
+                    <a href="#">法律声明</a>
+                    <a href="#">知识产权</a>
+                    <a href="#">不当竞争</a>
+                    <a href="#">举报规则</a>
+                    <a href="#">意见征集</a>
+                </div>
+                <div class="footer-logo">
+                    <img src="./images/logo.png" alt="">
+                    <img class="baidu" src="./images/baidu.png" alt="">
+                    <img src="./images/google.png" alt="">
+                    <img src="./images/microsoft.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js//jquery-3.1.0.js"></script>
+<script src="./js/cart.js"></script>
+
+</html>
